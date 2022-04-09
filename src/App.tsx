@@ -1,6 +1,7 @@
 
 import './App.css';
 import { CustomHook } from './components/CustomHook';
+import EvenMoreReact from './components/EvenMoreReact';
 import { UseContext } from './components/UseContext';
 import { UseEffectComp } from './components/UseEffectComp';
 import { UseReducer } from './components/UseReducer';
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <div className="App">
+      <EvenMoreReact />
       <h1>Custom Hook</h1>
       <CustomHook />
       <h1>UseRef</h1>
